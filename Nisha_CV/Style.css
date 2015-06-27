@@ -1,0 +1,156 @@
+﻿body {
+    background-color: gainsboro;
+}
+h1 {
+     color: palevioletred;
+     text-shadow: 2px 2px 5px purple;
+    font-size: 50px;
+     
+    animation-name: example;
+    animation-duration: 60s;
+}
+img {
+    width: 200px;
+    height: 180px;
+    padding-left: 180px;
+    padding-top:0;
+   float: left;
+}
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+header {
+    background-color: gray;
+    padding: 40px;
+   
+    float: left;
+}
+.logo {
+    width: 543px;
+    height: 150px;
+    float: left;
+}
+.img {
+    width: 360px;
+    height: 100px;
+    float: left;
+}
+nav ul li {
+    display: inline;
+ 
+}
+nav ul li a {
+    width: 121px;
+    background: palevioletred;
+    display: inline-block;
+    float: left;
+    border: 1px solid whitesmoke; 
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 0;
+    text-transform: uppercase;
+
+}
+nav ul li a:hover {
+    color: palevioletred;
+    background:white ;
+}
+
+
+
+.container {
+    width: 960px;
+    float: left;
+}
+.content {
+    width: 700px;
+    float: left;
+}
+
+.content article {
+    width: 960px;
+    border: 1px solid palevioletred;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.content article h1 {
+    font-size: 26px;
+    font-weight: bold;
+    background-color: palevioletred;
+    color: whitesmoke;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+     animation-name: example2;
+    animation-duration: 60s;
+}
+.content article p {
+     font-size: 20px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+#para2,#boldPara {
+    display: inline;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+#boldPara {
+    font-weight: bold;
+   font-size: 20px;
+    display: inline;
+}
+#profStrength {
+     font-size: 20px;
+   
+    margin-left: 20px;
+    
+    
+}
+#education {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#education th {
+    height: 50px;
+    text-decoration: solid;
+      font-weight: bold;
+}
+#education tr,td, th {
+    border: 1px solid palevioletred;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-collapse: collapse;
+}
+
+footer {
+    width: 985px;
+   
+    color: palevioletred;
+    clear: both;
+  
+    animation-name: example;
+    animation-duration: 10s;
+
+}
+@keyframes example {
+    0%   {color:palevioletred; left:0px; top:0px;}
+    25%  {color:purple; left:200px; top:0px;}
+  
+ 100% {color:palevioletred; left:0px; top:0px;}
+   
+
+}
+@keyframes example2 {
+    0%   {color:palevioletred; left:0px; top:0px;}
+    25%  {color:purple; left:200px; top:0px;}
+  
+ 100% {color:white; left:0px; top:0px;}
+   
+
+}
